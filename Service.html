@@ -1,0 +1,173 @@
+<style>
+    body {
+      background-color: #b0d1ee;
+      color: #000000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+      font-weight: bold;
+    }
+    
+    .container {
+      text-align: center;
+      width: 100%;
+      
+    }
+    
+    .container h1 {
+      margin-bottom: 10px;
+      font-family: 'Franklin Gothic Medium',
+       'Arial Narrow',
+        Arial, 
+        sans-serif;
+    }
+    
+    .container p {
+      margin-top: 10px;
+      line-height: 2;
+      font-family: 'Franklin Gothic Medium',
+       'Arial Narrow',
+        Arial, 
+        sans-serif;
+    }
+    
+    .container ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: block;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    
+    .container li {
+      margin: 0 10px;
+    }
+    
+    .container a {
+      color: #be2323;
+      text-decoration: none;
+    }
+    
+    .container a:hover {
+      text-decoration: underline;
+      color: red;
+    }
+    button {
+     outline: none;
+     cursor: pointer;
+     border: none;
+     padding: 0.9rem 2rem;
+     margin: 0;
+     font-family: inherit;
+     font-size: inherit;
+     position: relative;
+     top: 30px;
+     display: inline-block;
+     letter-spacing: 0.05rem;
+     font-weight: 700;
+     font-size: 10px;
+     border-radius: 500px;
+     overflow: hidden;
+     background: #b4cbe6;
+     color: rgb(208, 208, 230);
+    }
+    
+    button span {
+     position: relative;
+     z-index: 10;
+     transition: color 0.4s;
+    }
+    
+    button:hover span {
+     color: rgb(192, 19, 19);
+    }
+    
+    button::before,
+    button::after {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     z-index: 0;
+    }
+    
+    button::before {
+     content: "";
+     background: #49fcff;
+     width: 120%;
+     left: -10%;
+     transform: skew(30deg);
+     transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);
+    }
+    
+    button:hover::before {
+     transform: translate3d(100%, 0, 0);
+    }
+    .card {
+      width: 790px;
+      height: 654px;
+      background: rgb(236, 236, 236);
+      box-shadow: rgba(245, 129, 129, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    }
+    .card {
+      width: fit-content;
+      height: fit-content;
+      background-color: rgb(207, 199, 199);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 25px 25px;
+      gap: 20px;
+      box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.055);
+      text-decoration: solid;
+    }
+     </style>
+    
+    <!DOCTYPE html>
+    <html>
+    <head>
+     
+      
+    <div class="card">
+      <h1>MISS LEKOTA'S ONLINE STORE</h1>
+      <title>Our Service</title>
+      <link rel="stylesheet" type="text/css" href="styles.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-LhtCQYv9cB1eQ/AOWz4/2LGqEExJn8UbNK32T/+/0OjKwW1RdM0/Y1m1yeOgjh2K" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+       
+      <div class="container">
+        <h1>Services offered at Miss Lekota's Online Store</h1>
+        <h2></h2>
+        <div class="card">
+          Our dedication to service at Misslekota's online clothes store goes beyond simple transactions;
+          it encompasses building relationships, going above and beyond, and giving our cherished customers experiences they won't soon forget.
+          We want to make your buying experience even better by providing unmatched service quality and leaving you with a sense of inspiration, 
+          fulfillment, and confidence.
+          You are welcomed by a smooth and intuitive interface that is intended to improve your browsing experience as soon as you enter our online store.
+          Because of the way our website is set up, it's simple to browse through our carefully chosen selection of chic clothing, accessories, and shoes.
+          We want your online shopping experience to be as simple and pleasurable as possible, whether you're looking for classic wardrobe basics or the newest fashion trends.
+          Since every customer is different, we at Misslekota's are committed to giving you individualized attention to meet your specific needs and preferences.
+          We always have a trained and amiable customer support crew on hand to help with any questions, suggestions for products, or issues you may have. 
+          We're here to make sure your experience with us is nothing short of extraordinary, whether you need help with sizing, styling guidance, or order monitoring.
+          Service is more than just a pledge at Misslekota's online clothes store—it's a fundamental component of our company philosophy. 
+          We consider it an honor to be a part of your style journey and promise to serve you with passion, excellence, and honesty at every turn.
+        </div>                 
+       </div>
+        <center><button><span><a href="Home.html">Home</a></span>
+        </button></center>
+        <button><span><a href="Gallery.html">Gallery</a></span>
+        </button>
+        <button><span><a href="about.html">About us</a></span>
+        </button>
+        <button><span><a href="Contact.html">Contact us</a></span>
+        </button>
+      </div>
+    </body>
+    </html>

@@ -1,0 +1,112 @@
+<style>
+body{
+  background-color: #96c8f3;
+  color: #000;
+  font-weight: bold;
+}
+button {
+  outline: none;
+  cursor: pointer;
+  border: none;
+  padding: 0.9rem 2rem;
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  position: relative;
+  display: inline-block;
+  letter-spacing: 0.05rem;
+  font-weight: 700;
+  font-size: 17px;
+  border-radius: 500px;
+  overflow: hidden;
+  background: #da8795;
+  color: rgb(8, 8, 8);
+ }
+ 
+ button span {
+  position: relative;
+  z-index: 10;
+  transition: color 0.4s;
+ }
+ 
+ button:hover span {
+  color: rgb(230, 108, 124);
+ }
+ 
+ button::before,
+ button::after {
+  position: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+ }
+ 
+ button::before {
+  content: "";
+  background: #000;
+  width: 120%;
+  left: -10%;
+  transform: skew(30deg);
+  transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);
+ }
+ 
+ button:hover::before {
+  transform: translate3d(100%, 0, 0);
+ }
+
+ 
+ </style>
+ 
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+                    <h5 class="title-left">
+                      About us
+                    </h5>
+                  <p class="lead"><color="black" size="2pt">                    
+                    Miss Lekota's Clothing Store was founded in 2022by fashion enthusiast and entrepreneur, kgabo Lekota. Growing up with a passion for style and a keen eye for trends, 
+                    kgabo dreamed of creating a space where individuals could express themselves through fashion without breaking the bank.
+                    Kgabo's journey began in her hometown, where she started by selling handmade clothing and accessories at local markets and pop-up shops. 
+                    Her unique designs and commitment to quality quickly garnered attention, and soon, demand for her creations began to soar.
+                  </p>
+                  <p class="lead">
+                    In 2022, Kgabo took the leap and opened the doors to Miss Lekota's Clothing Store, a cozy boutique nestled in the heart of the city. 
+                    With its eclectic mix of contemporary pieces and timeless classics, Miss Lekota's quickly became a go-to destination for fashion-forward individuals seeking style inspiration and unique finds.
+                    Over the years, Miss Lekota's evolved into more than just a clothing store—it became a community hub, a place where customers could connect, express themselves,
+                    and embrace their individuality. From hosting fashion workshops and styling events to collaborating with local artists and designers, 
+                    Miss Lekota's fostered a sense of belonging and camaraderie among its clientele.
+
+                  </p>
+                  <p class="lead">
+                  In 2024, as the digital landscape expanded, Miss Lekota's embraced the online realm, launching its e-commerce platform to reach a wider audience and cater to the needs of modern shoppers. Today, 
+                  Miss Lekota's Online Clothing Store continues to thrive, offering a curated selection of fashion-forward pieces that celebrate diversity, creativity, and self-expression.
+                  With a commitment to quality, creativity, and customer satisfaction, Miss Lekota's remains true to its roots, empowering individuals to embrace their unique style and write their own fashion stories,
+                  one outfit at a time.</p>
+                    
+                    
+                </div>
+              </div>
+              <br>
+                    <button><span><a href="Home.html">Home</a></span>
+                    </button>
+                    <button><span><a href="Gallery.html">Gallery</a></span>
+                    </button>
+                    <button><span><a href="Contact.html">Contact Us</a></span>
+                    </button>
+                    <button><span><a href="Service.html">Services</a></span>
+                    </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</body>
+</html>
